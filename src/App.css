@@ -1,0 +1,26 @@
+:root {
+  --first-color: #3c000073;
+  --second-color: #320a14ff;
+  --button-color: #4c1819;
+  --button-hover-color: #511e20;
+  --text-color: #ffffffe6;
+  --background-span-color: #00000014;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-image: linear-gradient(to right, var(--first-color),var(--second-color));
+}
+
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ubuntu;
+}
